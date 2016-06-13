@@ -13,7 +13,6 @@
 		A9975E581D0E7C26009EDBE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9975E571D0E7C26009EDBE3 /* ViewController.m */; };
 		A9975E5B1D0E7C26009EDBE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9975E591D0E7C26009EDBE3 /* Main.storyboard */; };
 		A9975E5D1D0E7C26009EDBE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9975E5C1D0E7C26009EDBE3 /* Assets.xcassets */; };
-		A9975E601D0E7C26009EDBE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9975E5E1D0E7C26009EDBE3 /* LaunchScreen.storyboard */; };
 		A9975E6B1D0E7C26009EDBE3 /* distanceFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9975E6A1D0E7C26009EDBE3 /* distanceFinderTests.m */; };
 		A9975E761D0E7C26009EDBE3 /* distanceFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9975E751D0E7C26009EDBE3 /* distanceFinderUITests.m */; };
 		D34FDA93FC44D4498843394D /* libPods-distanceFinderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCCBB6F363721E9C757D3E8 /* libPods-distanceFinderUITests.a */; };
@@ -53,7 +52,6 @@
 		A9975E571D0E7C26009EDBE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9975E5A1D0E7C26009EDBE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9975E5C1D0E7C26009EDBE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9975E5F1D0E7C26009EDBE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9975E611D0E7C26009EDBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9975E661D0E7C26009EDBE3 /* distanceFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = distanceFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9975E6A1D0E7C26009EDBE3 /* distanceFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = distanceFinderTests.m; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 				A9975E571D0E7C26009EDBE3 /* ViewController.m */,
 				A9975E591D0E7C26009EDBE3 /* Main.storyboard */,
 				A9975E5C1D0E7C26009EDBE3 /* Assets.xcassets */,
-				A9975E5E1D0E7C26009EDBE3 /* LaunchScreen.storyboard */,
 				A9975E611D0E7C26009EDBE3 /* Info.plist */,
 				A9975E501D0E7C26009EDBE3 /* Supporting Files */,
 			);
@@ -291,7 +288,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9975E601D0E7C26009EDBE3 /* LaunchScreen.storyboard in Resources */,
 				A9975E5D1D0E7C26009EDBE3 /* Assets.xcassets in Resources */,
 				A9975E5B1D0E7C26009EDBE3 /* Main.storyboard in Resources */,
 			);
@@ -485,14 +481,6 @@
 				A9975E5A1D0E7C26009EDBE3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A9975E5E1D0E7C26009EDBE3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9975E5F1D0E7C26009EDBE3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
