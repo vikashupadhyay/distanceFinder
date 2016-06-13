@@ -23,17 +23,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your starting location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czl-RE-mYF">
-                                <rect key="frame" x="67" y="173" width="198" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="second distination" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EbH-hR-TOz">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="second distination" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EbH-hR-TOz">
                                 <rect key="frame" x="20" y="321" width="138" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="first distination" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwc-iQ-FuW">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="first distination" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwc-iQ-FuW">
                                 <rect key="frame" x="20" y="269" width="138" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -64,10 +59,32 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7r-bJ-dRu">
                                 <rect key="frame" x="116" y="494" width="104" height="30"/>
                                 <state key="normal" title="Calculate Here"/>
+                                <connections>
+                                    <action selector="calculatepressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6BF-8B-HPb"/>
+                                </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your starting location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czl-RE-mYF">
+                                <rect key="frame" x="83" y="156" width="198" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EbH-hR-TOz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="301" id="Sdl-vE-jrP"/>
+                            <constraint firstItem="bwc-iQ-FuW" firstAttribute="top" secondItem="czl-RE-mYF" secondAttribute="bottom" constant="100" id="sFG-xK-8PZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="DestA" destination="3kO-FR-iEi" id="c23-do-bjc"/>
+                        <outlet property="DestB" destination="syM-xJ-pVe" id="56b-uJ-Ujs"/>
+                        <outlet property="DestC" destination="6HL-z9-7rR" id="YsF-cK-ZrA"/>
+                        <outlet property="calculateButton" destination="J7r-bJ-dRu" id="pgH-gc-hdE"/>
+                        <outlet property="firstLocation" destination="bwc-iQ-FuW" id="256-c1-qTm"/>
+                        <outlet property="secondLocation" destination="EbH-hR-TOz" id="Wmh-Qq-OLi"/>
+                        <outlet property="startingLocation" destination="czl-RE-mYF" id="id7-nE-eWz"/>
+                        <outlet property="thirdLocation" destination="G9T-Fl-oyn" id="O1u-Hm-RHs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
