@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D7A7A466C2F8E1DA44BB607 /* libPods-distanceFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D090C277C5B4F287D5AC7F23 /* libPods-distanceFinder.a */; };
+		A9975E521D0E7C26009EDBE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9975E511D0E7C26009EDBE3 /* main.m */; };
+		A9975E551D0E7C26009EDBE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9975E541D0E7C26009EDBE3 /* AppDelegate.m */; };
+		A9975E581D0E7C26009EDBE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9975E571D0E7C26009EDBE3 /* ViewController.m */; };
+		A9975E5B1D0E7C26009EDBE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9975E591D0E7C26009EDBE3 /* Main.storyboard */; };
+		A9975E5D1D0E7C26009EDBE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9975E5C1D0E7C26009EDBE3 /* Assets.xcassets */; };
+		A9975E601D0E7C26009EDBE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9975E5E1D0E7C26009EDBE3 /* LaunchScreen.storyboard */; };
+		A9975E6B1D0E7C26009EDBE3 /* distanceFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9975E6A1D0E7C26009EDBE3 /* distanceFinderTests.m */; };
+		A9975E761D0E7C26009EDBE3 /* distanceFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9975E751D0E7C26009EDBE3 /* distanceFinderUITests.m */; };
+		D34FDA93FC44D4498843394D /* libPods-distanceFinderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCCBB6F363721E9C757D3E8 /* libPods-distanceFinderUITests.a */; };
+		FFB9F67FF4B1931F14C04A09 /* libPods-distanceFinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA28E0910F2B1D52E4A99FA2 /* libPods-distanceFinderTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9975E671D0E7C26009EDBE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9975E451D0E7C26009EDBE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9975E4C1D0E7C26009EDBE3;
+			remoteInfo = distanceFinder;
+		};
+		A9975E721D0E7C26009EDBE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9975E451D0E7C26009EDBE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9975E4C1D0E7C26009EDBE3;
+			remoteInfo = distanceFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DEA88D4D796E5A145CA31B4 /* Pods-distanceFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-distanceFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-distanceFinderUITests/Pods-distanceFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F476C04F706ABCA8520873E /* Pods-distanceFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-distanceFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-distanceFinderTests/Pods-distanceFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BCCBB6F363721E9C757D3E8 /* libPods-distanceFinderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-distanceFinderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52688876FB866017F2BCA622 /* Pods-distanceFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-distanceFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-distanceFinderUITests/Pods-distanceFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		652ADCDE25D865CB0F59C87A /* Pods-distanceFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-distanceFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-distanceFinder/Pods-distanceFinder.release.xcconfig"; sourceTree = "<group>"; };
+		7B6C0E5BF7A231DA913F9FFE /* Pods-distanceFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-distanceFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-distanceFinderTests/Pods-distanceFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		82663B0EFBED1AA9B9B448CC /* Pods-distanceFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-distanceFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-distanceFinder/Pods-distanceFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		A9975E4D1D0E7C26009EDBE3 /* distanceFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = distanceFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9975E511D0E7C26009EDBE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9975E531D0E7C26009EDBE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9975E541D0E7C26009EDBE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9975E561D0E7C26009EDBE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9975E571D0E7C26009EDBE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9975E5A1D0E7C26009EDBE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9975E5C1D0E7C26009EDBE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9975E5F1D0E7C26009EDBE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9975E611D0E7C26009EDBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9975E661D0E7C26009EDBE3 /* distanceFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = distanceFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9975E6A1D0E7C26009EDBE3 /* distanceFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = distanceFinderTests.m; sourceTree = "<group>"; };
+		A9975E6C1D0E7C26009EDBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9975E711D0E7C26009EDBE3 /* distanceFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = distanceFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9975E751D0E7C26009EDBE3 /* distanceFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = distanceFinderUITests.m; sourceTree = "<group>"; };
+		A9975E771D0E7C26009EDBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D090C277C5B4F287D5AC7F23 /* libPods-distanceFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-distanceFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA28E0910F2B1D52E4A99FA2 /* libPods-distanceFinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-distanceFinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9975E4A1D0E7C26009EDBE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A7A466C2F8E1DA44BB607 /* libPods-distanceFinder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9975E631D0E7C26009EDBE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB9F67FF4B1931F14C04A09 /* libPods-distanceFinderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9975E6E1D0E7C26009EDBE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34FDA93FC44D4498843394D /* libPods-distanceFinderUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065A2D63304DC866BEB8F1F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82663B0EFBED1AA9B9B448CC /* Pods-distanceFinder.debug.xcconfig */,
+				652ADCDE25D865CB0F59C87A /* Pods-distanceFinder.release.xcconfig */,
+				1F476C04F706ABCA8520873E /* Pods-distanceFinderTests.debug.xcconfig */,
+				7B6C0E5BF7A231DA913F9FFE /* Pods-distanceFinderTests.release.xcconfig */,
+				1DEA88D4D796E5A145CA31B4 /* Pods-distanceFinderUITests.debug.xcconfig */,
+				52688876FB866017F2BCA622 /* Pods-distanceFinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46B4CD2B6707F9FB4F83B2DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D090C277C5B4F287D5AC7F23 /* libPods-distanceFinder.a */,
+				DA28E0910F2B1D52E4A99FA2 /* libPods-distanceFinderTests.a */,
+				4BCCBB6F363721E9C757D3E8 /* libPods-distanceFinderUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9975E441D0E7C26009EDBE3 = {
+			isa = PBXGroup;
+			children = (
+				A9975E4F1D0E7C26009EDBE3 /* distanceFinder */,
+				A9975E691D0E7C26009EDBE3 /* distanceFinderTests */,
+				A9975E741D0E7C26009EDBE3 /* distanceFinderUITests */,
+				A9975E4E1D0E7C26009EDBE3 /* Products */,
+				065A2D63304DC866BEB8F1F0 /* Pods */,
+				46B4CD2B6707F9FB4F83B2DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9975E4E1D0E7C26009EDBE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9975E4D1D0E7C26009EDBE3 /* distanceFinder.app */,
+				A9975E661D0E7C26009EDBE3 /* distanceFinderTests.xctest */,
+				A9975E711D0E7C26009EDBE3 /* distanceFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9975E4F1D0E7C26009EDBE3 /* distanceFinder */ = {
+			isa = PBXGroup;
+			children = (
+				A9975E531D0E7C26009EDBE3 /* AppDelegate.h */,
+				A9975E541D0E7C26009EDBE3 /* AppDelegate.m */,
+				A9975E561D0E7C26009EDBE3 /* ViewController.h */,
+				A9975E571D0E7C26009EDBE3 /* ViewController.m */,
+				A9975E591D0E7C26009EDBE3 /* Main.storyboard */,
+				A9975E5C1D0E7C26009EDBE3 /* Assets.xcassets */,
+				A9975E5E1D0E7C26009EDBE3 /* LaunchScreen.storyboard */,
+				A9975E611D0E7C26009EDBE3 /* Info.plist */,
+				A9975E501D0E7C26009EDBE3 /* Supporting Files */,
+			);
+			path = distanceFinder;
+			sourceTree = "<group>";
+		};
+		A9975E501D0E7C26009EDBE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9975E511D0E7C26009EDBE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9975E691D0E7C26009EDBE3 /* distanceFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9975E6A1D0E7C26009EDBE3 /* distanceFinderTests.m */,
+				A9975E6C1D0E7C26009EDBE3 /* Info.plist */,
+			);
+			path = distanceFinderTests;
+			sourceTree = "<group>";
+		};
+		A9975E741D0E7C26009EDBE3 /* distanceFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9975E751D0E7C26009EDBE3 /* distanceFinderUITests.m */,
+				A9975E771D0E7C26009EDBE3 /* Info.plist */,
+			);
+			path = distanceFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9975E4C1D0E7C26009EDBE3 /* distanceFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9975E7A1D0E7C26009EDBE3 /* Build configuration list for PBXNativeTarget "distanceFinder" */;
+			buildPhases = (
+				8978348681B463675357DF10 /* [CP] Check Pods Manifest.lock */,
+				A9975E491D0E7C26009EDBE3 /* Sources */,
+				A9975E4A1D0E7C26009EDBE3 /* Frameworks */,
+				A9975E4B1D0E7C26009EDBE3 /* Resources */,
+				BC32465D92C058AB5113816D /* [CP] Embed Pods Frameworks */,
+				B475E70A5BBF926085302606 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = distanceFinder;
+			productName = distanceFinder;
+			productReference = A9975E4D1D0E7C26009EDBE3 /* distanceFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9975E651D0E7C26009EDBE3 /* distanceFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9975E7D1D0E7C26009EDBE3 /* Build configuration list for PBXNativeTarget "distanceFinderTests" */;
+			buildPhases = (
+				620F8353B95FF9E74448ADDA /* [CP] Check Pods Manifest.lock */,
+				A9975E621D0E7C26009EDBE3 /* Sources */,
+				A9975E631D0E7C26009EDBE3 /* Frameworks */,
+				A9975E641D0E7C26009EDBE3 /* Resources */,
+				8B316AB3C20E666F7055D2FC /* [CP] Embed Pods Frameworks */,
+				14ABC43FB192E086A3E16440 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9975E681D0E7C26009EDBE3 /* PBXTargetDependency */,
+			);
+			name = distanceFinderTests;
+			productName = distanceFinderTests;
+			productReference = A9975E661D0E7C26009EDBE3 /* distanceFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9975E701D0E7C26009EDBE3 /* distanceFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9975E801D0E7C26009EDBE3 /* Build configuration list for PBXNativeTarget "distanceFinderUITests" */;
+			buildPhases = (
+				9A19BA708DE824D9485CF46E /* [CP] Check Pods Manifest.lock */,
+				A9975E6D1D0E7C26009EDBE3 /* Sources */,
+				A9975E6E1D0E7C26009EDBE3 /* Frameworks */,
+				A9975E6F1D0E7C26009EDBE3 /* Resources */,
+				0EA0334EE6EFDF2981C392FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9975E731D0E7C26009EDBE3 /* PBXTargetDependency */,
+			);
+			name = distanceFinderUITests;
+			productName = distanceFinderUITests;
+			productReference = A9975E711D0E7C26009EDBE3 /* distanceFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9975E451D0E7C26009EDBE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kvikas;
+				TargetAttributes = {
+					A9975E4C1D0E7C26009EDBE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A9975E651D0E7C26009EDBE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A9975E4C1D0E7C26009EDBE3;
+					};
+					A9975E701D0E7C26009EDBE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A9975E4C1D0E7C26009EDBE3;
+					};
+				};
+			};
+			buildConfigurationList = A9975E481D0E7C26009EDBE3 /* Build configuration list for PBXProject "distanceFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9975E441D0E7C26009EDBE3;
+			productRefGroup = A9975E4E1D0E7C26009EDBE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9975E4C1D0E7C26009EDBE3 /* distanceFinder */,
+				A9975E651D0E7C26009EDBE3 /* distanceFinderTests */,
+				A9975E701D0E7C26009EDBE3 /* distanceFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9975E4B1D0E7C26009EDBE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9975E601D0E7C26009EDBE3 /* LaunchScreen.storyboard in Resources */,
+				A9975E5D1D0E7C26009EDBE3 /* Assets.xcassets in Resources */,
+				A9975E5B1D0E7C26009EDBE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9975E641D0E7C26009EDBE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9975E6F1D0E7C26009EDBE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EA0334EE6EFDF2981C392FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-distanceFinderUITests/Pods-distanceFinderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14ABC43FB192E086A3E16440 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-distanceFinderTests/Pods-distanceFinderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		620F8353B95FF9E74448ADDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8978348681B463675357DF10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B316AB3C20E666F7055D2FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-distanceFinderTests/Pods-distanceFinderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A19BA708DE824D9485CF46E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B475E70A5BBF926085302606 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-distanceFinder/Pods-distanceFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC32465D92C058AB5113816D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-distanceFinder/Pods-distanceFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9975E491D0E7C26009EDBE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9975E581D0E7C26009EDBE3 /* ViewController.m in Sources */,
+				A9975E551D0E7C26009EDBE3 /* AppDelegate.m in Sources */,
+				A9975E521D0E7C26009EDBE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9975E621D0E7C26009EDBE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9975E6B1D0E7C26009EDBE3 /* distanceFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9975E6D1D0E7C26009EDBE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9975E761D0E7C26009EDBE3 /* distanceFinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9975E681D0E7C26009EDBE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9975E4C1D0E7C26009EDBE3 /* distanceFinder */;
+			targetProxy = A9975E671D0E7C26009EDBE3 /* PBXContainerItemProxy */;
+		};
+		A9975E731D0E7C26009EDBE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9975E4C1D0E7C26009EDBE3 /* distanceFinder */;
+			targetProxy = A9975E721D0E7C26009EDBE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9975E591D0E7C26009EDBE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9975E5A1D0E7C26009EDBE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9975E5E1D0E7C26009EDBE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9975E5F1D0E7C26009EDBE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9975E781D0E7C26009EDBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9975E791D0E7C26009EDBE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9975E7B1D0E7C26009EDBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82663B0EFBED1AA9B9B448CC /* Pods-distanceFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = distanceFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtworks.distanceFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9975E7C1D0E7C26009EDBE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652ADCDE25D865CB0F59C87A /* Pods-distanceFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = distanceFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtworks.distanceFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9975E7E1D0E7C26009EDBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F476C04F706ABCA8520873E /* Pods-distanceFinderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = distanceFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtworks.distanceFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distanceFinder.app/distanceFinder";
+			};
+			name = Debug;
+		};
+		A9975E7F1D0E7C26009EDBE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6C0E5BF7A231DA913F9FFE /* Pods-distanceFinderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = distanceFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtworks.distanceFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distanceFinder.app/distanceFinder";
+			};
+			name = Release;
+		};
+		A9975E811D0E7C26009EDBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DEA88D4D796E5A145CA31B4 /* Pods-distanceFinderUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = distanceFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtworks.distanceFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = distanceFinder;
+			};
+			name = Debug;
+		};
+		A9975E821D0E7C26009EDBE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52688876FB866017F2BCA622 /* Pods-distanceFinderUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = distanceFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtworks.distanceFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = distanceFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9975E481D0E7C26009EDBE3 /* Build configuration list for PBXProject "distanceFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9975E781D0E7C26009EDBE3 /* Debug */,
+				A9975E791D0E7C26009EDBE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9975E7A1D0E7C26009EDBE3 /* Build configuration list for PBXNativeTarget "distanceFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9975E7B1D0E7C26009EDBE3 /* Debug */,
+				A9975E7C1D0E7C26009EDBE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9975E7D1D0E7C26009EDBE3 /* Build configuration list for PBXNativeTarget "distanceFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9975E7E1D0E7C26009EDBE3 /* Debug */,
+				A9975E7F1D0E7C26009EDBE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9975E801D0E7C26009EDBE3 /* Build configuration list for PBXNativeTarget "distanceFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9975E811D0E7C26009EDBE3 /* Debug */,
+				A9975E821D0E7C26009EDBE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9975E451D0E7C26009EDBE3 /* Project object */;
+}
