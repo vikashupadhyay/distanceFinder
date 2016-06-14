@@ -34,6 +34,9 @@
 }
 
 - (IBAction)calculatepressed:(id)sender {
+    
+    [self setDefaultText];
+    
     self.calculateButton.enabled = NO;
     self.req = [DGDistanceRequest alloc];
     
@@ -52,7 +55,6 @@
         if(!strongself)  return;
         
         NSNull *badRequest  =[NSNull null];
-        
         if(response[0]!=badRequest){
             double num = [response[0] doubleValue]/1000.0;
             
@@ -86,6 +88,12 @@
     tapper.cancelsTouchesInView = NO;
     [self.view addGestureRecognizer:tapper];
 }
+
+-(void) setDefaultText{
+    self.DestA.text=@"";
+    self.DestB.text=@"";
+    self.DestC.text=@"";
+};
 - (void)handleSingleTap:(UITapGestureRecognizer *) sender
 {
     [self.view endEditing:YES];
