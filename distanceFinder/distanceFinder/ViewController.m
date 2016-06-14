@@ -51,13 +51,27 @@
         ViewController *strongself = weakself;
         if(!strongself)  return;
         
-        NSNull *badRequest =[NSNull null];
+        NSNull *badRequest  =[NSNull null];
         
         if(response[0]!=badRequest){
             double num = [response[0] doubleValue]/1000.0;
             
             NSString *x = [NSString stringWithFormat:@"%0.2f km",num];
             self.DestA.text = x;
+        }
+        
+        if(response[1]!=badRequest){
+            double num = [response[1] doubleValue]/1000.0;
+            
+            NSString *x = [NSString stringWithFormat:@"%0.2f km",num];
+            self.DestB.text = x;
+        }
+        
+        if(response[2]!=badRequest){
+            double num = [response[2] doubleValue]/1000.0;
+            
+            NSString *x = [NSString stringWithFormat:@"%0.2f km",num];
+            self.DestC.text = x;
         }
         self.calculateButton.enabled = YES;
     };
